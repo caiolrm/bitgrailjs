@@ -56,3 +56,9 @@ wallet.getDepositAddress('btc').then(address => console.log(address));
 ### Websocket
 
 This client has no support for that at the moment, but it probably will at some point.
+
+# Setup
+
+```bash
+npm install bitgrailjs --save
+```
