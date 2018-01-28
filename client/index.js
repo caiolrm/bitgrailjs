@@ -10,7 +10,7 @@ module.exports = class Client {
     constructor(opts = {}) {
         this.apiKey = opts.apiKey;
         this.secretKey = opts.secretKey;
-        this.basePath = opts.basePath || 'https://bitgrail.com/api/v1';
+        this.basePath = opts.basePath || 'https://api.bitgrail.com/v1';
         this.logLevel = opts.logLevel;
         this._importModules();
     }
